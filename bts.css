@@ -1,0 +1,65 @@
+body {
+	display:flex;
+	margin:0;
+}
+.side{
+	height:100vh;
+	width:10vw;
+	background-color:blue;
+}
+.center{
+	display:block;
+	height:100vh;
+	width: calc(100%-20%);
+	background-color:pink;
+}
+.top{
+	height:60vh;
+	width:80vw;
+	background-color:green;
+}
+.bottom{
+	height:30vh;
+	width:80vw;
+	background-color:orange;
+}
+.title{
+	height:10vh;
+	width:60vw;
+	background-color:red;
+	margin-left:10vw;
+}
+.btsalbum {
+	display:flex;
+	height:30vh;
+	width:80vw;
+	background-color:pink;
+}
+.album {
+	border: 15px solid white;
+	height:25vh;
+	width:20vw;
+	background-color:yellow;
+}
+.member {
+	margin-top:20px;
+	margin-left:5vw;
+	margin-right:5vw;
+	display:flex;
+	width:69vw;
+	height:20vh;
+	background-color:pink;
+}
+.member2 {
+	margin-left:14vw;
+	display:flex;
+	width:52vw;
+	height:20vh;
+	background-color:pink;
+}
+.face{
+	width:15vw;
+	height:15vh;
+	border: 20px solid white;
+	background-color:black;
+}
