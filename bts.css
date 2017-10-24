@@ -1,6 +1,9 @@
 @media screen and (max-width:599px){
 .side {
-		display:none;
+	display:none;
+	}
+	body{
+	margin:0;
 	}
 	.center{
 		display:block;
