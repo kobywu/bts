@@ -1,4 +1,115 @@
+@media screen and (max-width:599px){
+.side {
+		display:none;
+	}
+	.center{
+		display:block;
+		width:100vw;
+		height:100vh;
+		background-color:red;
+		margin:0;
+		border:0;
+		padding:0;
+	}
+	.top, .bottom{
+		height:90vh;
+		width: 100vw;
+	}
+	.logo{
+		background-color:red;
+		width:100vw;
+		height:10vh;
+	}
+	.title {
+		display:none;
+	}
+	.member {
+		height:100vh;
+		width: 100vw;
+		background-color:pink;
+	}
+	.member2 {
+		height:65vh;
+		width:100vw;
+		background-color:orange;
+	}
+	.face {
+		height: calc(100vh / 4 - 10px);
+		background-color:orange;
+		border-bottom: 5px solid white;
+		border-top: 5px solid white;
+	}
+	.face2 {
+		height: calc(75vh / 3 - 10px);
+		background-color:black;
+		border-bottom: 5px solid white;
+		border-top: 5px solid white;
+	}
+}
+@media screen and (min-width:600px) and (max-width:1000px){
 body {
+	display:flex;
+	margin:0;
+}
+.side{
+	display:none;
+}
+.center{
+	display:block;
+	height:100vh;
+	width: 100vw;
+}
+.top{
+	height:60vh;
+	background-color:green;
+}
+.bottom{
+	height:40vh;
+	background-color:orange;
+}
+.title, .logo{
+	height:10vh;
+	width:60vw;
+	background-color:red;
+	margin-left:20vw;
+}
+.btsalbum {
+	display:flex;
+	height:20vh;
+	width:100vw;
+}
+.album {
+	border: 5px solid white;
+	height:20vh;
+	width:calc(100vw / 4 - 10px);
+	background-color:yellow;
+}
+.member {
+	display:flex;
+	width:100vw;
+	height:20vh;
+}
+.member2 {
+	display:flex;
+	width:100vw;
+	height:20vh;
+	margin-left:10vw;
+}
+.face{
+	width: calc(100vw / 4 - 15px);
+	height:17vh;
+	border: 15px solid white;
+	background-color:black;
+}
+.face2{
+	width: calc(100vw / 3 - 15px - 10vw);
+	height:17vh;
+	border: 15px solid white;
+	background-color:black;
+}
+}
+@media screen and (min-width:1001px){
+	body {
 	display:flex;
 	margin:0;
 }
@@ -22,7 +133,7 @@ body {
 	width:80vw;
 	background-color:orange;
 }
-.title{
+.title, .logo{
 	height:10vh;
 	width:60vw;
 	background-color:red;
@@ -54,74 +165,17 @@ body {
 	height:20vh;
 }
 .face{
-	width:15vw;
+	width: calc(100% / 4 - 15px);
 	height:17vh;
 	border: 15px solid white;
 	background-color:black;
 }
-@media screen and (max-width:599px){
-	.side {
-		display:none;
-	}
-	.top, .bottom, .title, .btsalbum {
-		display:block;
-		width:100vw;
-		margin:0;
-	}
-.center{
-	display:block;
-	height:100vh;
-	width:100vw;
-}
-.top{
-	height:100vh;
-	background-color:green;
-	}
-	.bottom{
-	height:40vh;
-	background-color:orange;
-	}
-.title{
-	height:10vh;
-	background-color:red;
-	}
-.album {
-	border: 5px solid white;
-	height:20vh;
-	background-color:yellow;
-	}
-.member {
-	height:20vh;
-	}
-.member2 {
-	height:20vh;
-	}
-.face{
-	width:100vw;
+.face2{
+	width: calc(100% / 3 - 15px);
 	height:17vh;
 	border: 15px solid white;
 	background-color:black;
-	}
 }
-@media screen and (min-width:600px) and (max-width:1000px){
-	.side {
-		display:none;
-	}
-	.center,.top,.bottom,.btsalbum {
-		width:100vw;
-	}
-	
-	.member{
-		width:100vw;
-		margin:0;
-	}
-	.member2 {
-		width:72vw;
-	}
-	.face, .album{
-	width:25vw;
-	}
-	.title{
-		margin-left:20vw;
-	}
 }
+
+
