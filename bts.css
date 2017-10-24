@@ -7,12 +7,12 @@
 		width:100vw;
 		height:100vh;
 		background-color:red;
-		margin:0;
-		border:0;
-		padding:0;
+		margin:0px;
+		border:0px;
+		padding:0px;
 	}
 	.top, .bottom{
-		height:200vh;
+		height:180vh;
 		width: 100vw;
 	}
 	.logo{
@@ -171,9 +171,9 @@ body {
 	height:20vh;
 }
 .member2 {
-	margin-left:14vw;
+	margin-left:15vw;
 	display:flex;
-	width:52vw;
+	width:60vw;
 	height:20vh;
 }
 .face{
@@ -183,10 +183,11 @@ body {
 	background-color:black;
 }
 .face2{
-	width: calc(100% / 3 - 15px);
+	width: calc(100% / 4 - 15px);
 	height:17vh;
 	border: 15px solid white;
 	background-color:black;
 }
 }
+
 
