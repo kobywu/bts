@@ -12,13 +12,13 @@
 		padding:0;
 	}
 	.top, .bottom{
-		height:90vh;
+		height:200vh;
 		width: 100vw;
 	}
 	.logo{
 		background-color:red;
 		width:100vw;
-		height:10vh;
+		height:30vh;
 	}
 	.title {
 		display:none;
@@ -45,6 +45,16 @@
 		border-bottom: 5px solid white;
 		border-top: 5px solid white;
 	}
+	.btsalbum{
+		width:100vw;
+		height:100vh;
+	}
+	.album{
+		border-bottom: 5px solid white;
+		border-top: 5px solid white;
+		height: calc(200vh / 4 - 10px);
+		background-color:green;
+	} 
 }
 @media screen and (min-width:600px) and (max-width:1000px){
 body {
@@ -72,6 +82,7 @@ body {
 	width:60vw;
 	background-color:red;
 	margin-left:20vw;
+	margin-bottom:5vh;
 }
 .btsalbum {
 	display:flex;
@@ -91,7 +102,7 @@ body {
 }
 .member2 {
 	display:flex;
-	width:100vw;
+	width:80vw;
 	height:20vh;
 	margin-left:10vw;
 }
@@ -138,6 +149,7 @@ body {
 	width:60vw;
 	background-color:red;
 	margin-left:10vw;
+	margin-bottom:5vh;
 }
 .btsalbum {
 	display:flex;
@@ -177,5 +189,4 @@ body {
 	background-color:black;
 }
 }
-
 
