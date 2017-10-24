@@ -4,53 +4,34 @@
 	}
 	body{
 	margin:0;
-	}
-	.center{
-		display:block;
-		width:100vw;
-		height:100vh;
-		background-color:red;
-		margin:0px;
-		border:0px;
-		padding:0px;
+	display:flex;
+	flex-wrap:wrap;
 	}
 	.top, .bottom{
 		height:180vh;
-		width: 100vw;
+		width: 100%;
 	}
 	.logo{
 		background-color:red;
-		width:100vw;
+		width:100%;
 		height:30vh;
 	}
 	.title {
 		display:none;
 	}
-	.member {
+	.member, .btsalbum {
 		height:100vh;
 		width: 100vw;
-		background-color:pink;
 	}
 	.member2 {
 		height:65vh;
 		width:100vw;
-		background-color:orange;
 	}
-	.face {
+	.face, .face2 {
 		height: calc(100vh / 4 - 10px);
 		background-color:orange;
 		border-bottom: 5px solid white;
 		border-top: 5px solid white;
-	}
-	.face2 {
-		height: calc(75vh / 3 - 10px);
-		background-color:black;
-		border-bottom: 5px solid white;
-		border-top: 5px solid white;
-	}
-	.btsalbum{
-		width:100vw;
-		height:100vh;
 	}
 	.album{
 		border-bottom: 5px solid white;
@@ -135,7 +116,7 @@ body {
 .center{
 	display:block;
 	height:100vh;
-	width: calc(100%-20%);
+	width: 80vw;
 }
 .top{
 	height:60vh;
@@ -174,9 +155,9 @@ body {
 	height:20vh;
 }
 .member2 {
-	margin-left:15vw;
+	margin-left:15%;
 	display:flex;
-	width:60vw;
+	width:69vw;
 	height:20vh;
 }
 .face{
@@ -192,5 +173,4 @@ body {
 	background-color:black;
 }
 }
-
 
