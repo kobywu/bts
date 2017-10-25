@@ -1,14 +1,38 @@
-	body {
+body {
 	display:flex;
-	flex-wrap:wrap;
 	margin:0;
 	overflow-x:hidden;
+	background-image:url(background.png);
+	
+}
+.logo {
+	background-image: url(btslogo.png);
+}
+.jk {
+	background-image: url(jungkook.png);
+}
+.suga{
+	background-image: url(suga.png);
+}
+.jin{
+	background-image: url(jin.png);
+}
+.rapmon{
+	background-image: url(rapmonster.png);
+}
+.v{
+	background-image: url(v.png);
+}
+.jimin{
+	background-image: url(jimin.png);
+}
+.jhope{
+	background-image: url(jhope.png);
 }
 @media screen and (max-width:599px){
-.side, .title {
-	display:none;
+	.side {
+		display:none;
 	}
-	
 	.top, .bottom{
 		height:180vh;
 		width: 100%;
@@ -26,7 +50,7 @@
 		height:65vh;
 		width:100vw;
 	}
-	.face, .face2 {
+	.face {
 		height: calc(100vh / 4 - 10px);
 		background-color:orange;
 		border-bottom: 5px solid white;
@@ -40,121 +64,112 @@
 	} 
 }
 @media screen and (min-width:600px) and (max-width:1000px){
-.side{
-	display:none;
-}
-.center{
-	height:100vh;
-	width: 100vw;
-}
-.top{
-	height:60vh;
-	background-color:green;
-}
-.bottom{
-	height:40vh;
-	background-color:orange;
-}
-.title, .logo{
-	height:10vh;
-	width:60vw;
-	background-color:red;
+	.side{
+		display:none;
+	}
+	.center{
+		height:100vh;
+		width: 100vw;
+	}
+	.top{
+		height:70vh;
+	}
+	.bottom{
+		height:30vh;
+	}
+	.logo{
+		height:140px;
+		width:247px;
+		border-top:5px solid white;
+		margin-left:40%;
+		margin-bottom:5vh;
+	}
+	.btsalbum {
+		display:flex;
+		height:20vh;
+		width:100vw;
+	}
+	.album {
+		border: 5px solid white;
+		height:20vh;
+		width:calc(100vw / 4 - 10px);
+		background-color:yellow;
+	}
+	
+	.member, .member2 {
+		display:flex;
+		height:147px;
+	}
+	.member {
+		width:920px;
+		margin-top:20px;
+	}
+	.member2 {
 	margin-left:20vw;
-	margin-bottom:5vh;
-}
-.btsalbum {
-	display:flex;
-	height:20vh;
-	width:100vw;
-}
-.album {
-	border: 5px solid white;
-	height:20vh;
-	width:calc(100vw / 4 - 10px);
-	background-color:yellow;
-}
-.member {
-	display:flex;
-	width:100vw;
-	height:20vh;
-}
-.member2 {
-	display:flex;
-	width:80vw;
-	height:20vh;
-	margin-left:10vw;
-}
-.face{
-	width: calc(100vw / 4 - 15px);
-	height:17vh;
+	width:690px;
+	}
+	.face, .face2{
+	width: 200px;
+	height:132px;
 	border: 15px solid white;
 	background-color:black;
-}
-.face2{
-	width: calc(100vw / 3 - 15px - 10vw);
-	height:17vh;
-	border: 15px solid white;
-	background-color:black;
-}
-}
-@media screen and (min-width:1001px){
+	}
 
-.side{
-	height:100vh;
-	width:10vw;
-	background-color:blue;
 }
-.center{
-	height:100vh;
-	width: 80vw;
-}
-.top{
-	height:60vh;
-	width:80vw;
-	background-color:green;
-}
-.bottom{
-	height:40vh;
-	width:80vw;
-	background-color:orange;
-}
-.title, .logo{
-	height:10vh;
-	width:60vw;
-	background-color:red;
-	margin-left:10vw;
-	margin-bottom:5vh;
-}
-.btsalbum {
-	display:flex;
-	height:20vh;
-	width:80vw;
-}
-.album {
-	border: 5px solid white;
-	height:20vh;
-	width:20vw;
-	background-color:yellow;
-}
-.member {
-	margin-top:20px;
-	margin-left:5vw;
-	margin-right:5vw;
-}
-.member, .member2 {
-	display:flex;
-	width:69vw;
-	height:20vh;
-}
-.member2 {
-	margin-left:15%;
-}
-.face, .face2{
-	width: calc(100% / 4 - 15px);
-	height:17vh;
+
+@media screen and (min-width:1001px){
+	.side{
+		height:100vh;
+		width:10vw;
+	}
+	.center{
+		height:100vh;
+		width: 80vw;
+	}
+	.top{
+		height:70vh;
+		width:80vw;
+	}
+	.bottom{
+		height:30vh;
+		width:80vw;
+	}
+	.logo{
+		height:140px;
+		width:247px;
+		border-top:5px solid white;
+		margin-left:40%;
+		margin-bottom:5vh;
+	}
+	.btsalbum {
+		display:flex;
+		height:20vh;
+		width:80vw;
+	}
+	.album {
+		border: 5px solid white;
+		height:20vh;
+		width:20vw;
+		background-color:yellow;
+	}
+	.member, .member2 {
+		display:flex;
+		height:147px;
+	}
+	.member {
+		width:920px;
+		margin-top:20px;
+		margin-left:16%;
+	}
+	.member2 {
+	margin-left:20vw;
+	width:690px;
+	}
+	.face, .face2{
+	width: 200px;
+	height:132px;
 	border: 15px solid white;
-	background-color:black;
-}
+	}
 
 }
 
