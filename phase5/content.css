@@ -1,9 +1,9 @@
 body {
 	display:flex;
+		justify-content:center;
 	margin:0;
 	overflow-x:hidden;
-	background-image:url(background.png);
-	
+	background: #f0f4fa;
 }
 .logo {
 	background-image: url(btslogo.png);
@@ -28,6 +28,30 @@ body {
 }
 .jhope{
 	background-image: url(jhope.png);
+}
+.love{
+		background-image:url(loveyourself.jpg);
+	}
+	.wings{
+		background-image:url(wings.jpg);
+	}
+	.dark{
+		background-image:url(darkandwild.jpg);
+	}
+	.young{
+		background-image:url(youngforever.jpeg);
+	}
+/* thank you to http://bts.ibighit.com/bts.php for the code*/
+.background-o {
+	width:100%;
+	height:100%;
+	background:url('https://s3-ap-northeast-1.amazonaws.com/ibighit/bts/loveyourself/flower/ly-o-flower.png') center right no-repeat;
+	background-size: contain !important;
+	position: absolute;
+	left:0;
+	z-index: -9999;
+	    text-align: center;
+    -webkit-font-smoothing: antialiased;
 }
 @media screen and (max-width:599px){
 	.side {
@@ -72,10 +96,10 @@ body {
 		width: 100vw;
 	}
 	.top{
-		height:70vh;
+		height:60vh;
 	}
 	.bottom{
-		height:30vh;
+		height:40vh;
 	}
 	.logo{
 		height:140px;
@@ -86,7 +110,7 @@ body {
 	}
 	.btsalbum {
 		display:flex;
-		height:20vh;
+		height:40vh;
 		width:100vw;
 	}
 	.album {
@@ -127,29 +151,35 @@ body {
 		width: 80vw;
 	}
 	.top{
-		height:70vh;
+		height:60vh;
 		width:80vw;
+		display:flex;
+		justify-content:center;
+		flex-wrap:wrap;
 	}
 	.bottom{
-		height:30vh;
-		width:80vw;
+		display:flex;
+		justify-content:center;
+		height:40vh;
 	}
 	.logo{
+		display:flex;
+		justify-content:center;
 		height:140px;
 		width:247px;
-		border-top:5px solid white;
-		margin-left:40%;
-		margin-bottom:5vh;
+		border-top:5px solid #f0f4fa;
+		margin-bottom:10px;
 	}
 	.btsalbum {
 		display:flex;
-		height:20vh;
-		width:80vw;
+		justify-content:center;
+		height:40vh;
+		width:1284px;
 	}
 	.album {
-		border: 5px solid white;
-		height:20vh;
-		width:20vw;
+		border: 5px solid #f0f4fa;
+		height:315px;
+		width:311px;
 		background-color:yellow;
 	}
 	.member, .member2 {
@@ -159,18 +189,22 @@ body {
 	.member {
 		width:920px;
 		margin-top:20px;
-		margin-left:16%;
 	}
 	.member2 {
-	margin-left:20vw;
-	width:690px;
+	width:708px;
+	display:flex;
+	justify-content:center;
 	}
 	.face, .face2{
 	width: 200px;
 	height:132px;
-	border: 15px solid white;
+	border: 15px solid #f0f4fa;
 	}
-
+	.btslogo{
+		width:80vw;
+		display:flex;
+		justify-content:center;
+	}
 }
 
 
