@@ -87,8 +87,8 @@ body {
 		background-color:green;
 	} 
 }
-@media screen and (min-width:600px) and (max-width:1000px){
-	.side{
+@media screen and (min-width:600px) and (max-width:1584px){
+.side{
 		display:none;
 	}
 	.center{
@@ -97,29 +97,36 @@ body {
 	}
 	.top{
 		height:60vh;
+		width:100vw;
+		display:flex;
+		justify-content:center;
+		flex-wrap:wrap;
 	}
 	.bottom{
+		display:flex;
+		justify-content:center;
 		height:40vh;
 	}
 	.logo{
+		display:flex;
+		justify-content:center;
 		height:140px;
 		width:247px;
-		border-top:5px solid white;
-		margin-left:40%;
-		margin-bottom:5vh;
+		border-top:5px solid #f0f4fa;
+		margin-bottom:10px;
 	}
 	.btsalbum {
 		display:flex;
+		justify-content:center;
 		height:40vh;
 		width:100vw;
 	}
 	.album {
-		border: 5px solid white;
-		height:20vh;
-		width:calc(100vw / 4 - 10px);
+		border: 5px solid #f0f4fa;
+		height:315px;
+		width:311px;
 		background-color:yellow;
 	}
-	
 	.member, .member2 {
 		display:flex;
 		height:147px;
@@ -129,19 +136,22 @@ body {
 		margin-top:20px;
 	}
 	.member2 {
-	margin-left:20vw;
-	width:690px;
+	width:708px;
+	display:flex;
+	justify-content:center;
 	}
 	.face, .face2{
 	width: 200px;
 	height:132px;
-	border: 15px solid white;
-	background-color:black;
+	border: 15px solid #f0f4fa;
 	}
-
+	.btslogo{
+		width:80vw;
+		display:flex;
+		justify-content:center;
+	}	
 }
-
-@media screen and (min-width:1001px){
+@media screen and (min-width:1585px){
 	.side{
 		height:100vh;
 		width:10vw;
