@@ -1,0 +1,4 @@
+<!DOCTYPE html>
+<body>
+<div class="album"><img src="" class="love"></img></div>
+</body>
