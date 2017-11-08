@@ -213,7 +213,8 @@ body {
 		width: 100vw;
 	}
 	.top{
-		height:60vh;
+		display:block;
+		height:60vh;	
 	}
 	.bottom{
 		height:40vh;
@@ -239,9 +240,14 @@ body {
 	.member {
 		width:920px;
 		margin-top:20px;
+		/*margin-left:calc(100vw /2 - (5 * 200px)/2 + (10 * 15px)/2);*/
+		margin-left:calc(100vw -(4 * 200px + 120px)/ 2);
 	}
 	.member2 {
 		width:708px;
+		margin-top:20px;
+		margin-left:calc(100vw /2 - (4 * 200px)/2 + (8 * 15px)/2);
+		
 	}
 	.face, .face2{
 		width: 200px;
