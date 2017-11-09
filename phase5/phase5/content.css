@@ -123,7 +123,7 @@ body {
 		background-image: url(jhope2.png);
 	}
 }
-@media screen and (min-width:451px) and (max-width:888px){
+@media screen and (min-width:451px) and (max-width:919px){
 	.bottom{
 		height:173px;
 	}
@@ -164,7 +164,7 @@ body {
 		background-image: url(jhope2.png);
 	}
 }
-@media screen and (min-width:889px) and (max-width:1584px){
+@media screen and (min-width:920px) and (max-width:1584px){
 	.top{
 		height:70vh;
 	}
@@ -208,10 +208,6 @@ body {
 	}
 }
 @media screen and (min-width:1585px){
-	.center{
-		height:100vh;
-		width: 100vw;
-	}
 	.top{
 		display:block;
 		height:60vh;	
@@ -241,12 +237,12 @@ body {
 		width:920px;
 		margin-top:20px;
 		/*margin-left:calc(100vw /2 - (5 * 200px)/2 + (10 * 15px)/2);*/
-		margin-left:calc(100vw -(4 * 200px + 120px)/ 2);
+		margin-left:calc(100vw /2 - (400px + 60px));
 	}
 	.member2 {
 		width:708px;
 		margin-top:20px;
-		margin-left:calc(100vw /2 - (4 * 200px)/2 + (8 * 15px)/2);
+		margin-left:calc(100vw /2 - (300px + 45px));
 		
 	}
 	.face, .face2{
