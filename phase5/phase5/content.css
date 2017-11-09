@@ -236,7 +236,6 @@ body {
 	.member {
 		width:920px;
 		margin-top:20px;
-		/*margin-left:calc(100vw /2 - (5 * 200px)/2 + (10 * 15px)/2);*/
 		margin-left:calc(100vw /2 - (400px + 60px));
 	}
 	.member2 {
