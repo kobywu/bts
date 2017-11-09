@@ -6,37 +6,37 @@ body {
 	overflow-x:hidden;
 }
 .jk {
-	background-image: url(jungkook.png);
+	background-image: url(images/jungkook.png);
 }
 .suga{
-	background-image: url(suga.png);
+	background-image: url(images/suga.png);
 }
 .jin{
-	background-image: url(jin.png);
+	background-image: url(images/jin.png);
 }
 .rapmon{
-	background-image: url(rapmonster.png);
+	background-image: url(images/rapmonster.png);
 }
 .v{
-	background-image: url(v.png);
+	background-image: url(images/v.png);
 }
 .jimin{
-	background-image: url(jimin.png);
+	background-image: url(images/jimin.png);
 }
 .jhope{
-	background-image: url(jhope.png);
+	background-image: url(images/jhope.png);
 }
 .love{
-	background-image:url(loveyourself.jpg);
+	background-image:url(images/loveyourself.jpg);
 }
 .wings{
-	background-image:url(wings.jpg);
+	background-image:url(images/wings.jpg);
 }
 .dark{
-	background-image:url(darkandwild.jpg);
+	background-image:url(images/darkandwild.jpg);
 }
 .young{
-	background-image:url(youngforever.jpg);
+	background-image:url(images/youngforever.jpg);
 }
 .btslogo{
 	width:100vw;
@@ -48,7 +48,7 @@ body {
 	margin-bottom:10px;
 	height:107px;
 	width:190px;
-	background-image: url(btslogo2.png);
+	background-image: url(images/btslogo2.png);
 }
 .center{
 	height:100vh;
@@ -81,7 +81,7 @@ body {
 	left:0;
 	z-index: -9999;
 	text-align: center;
-    -webkit-font-smoothing: antialiased;
+    	-webkit-font-smoothing: antialiased;
 }
 @media screen and (max-width:450px){
 	.album {
@@ -102,25 +102,25 @@ body {
 		height:198px;
 	}
 	.jk {
-		background-image: url(jungkook2.png);
+		background-image: url(images/jungkook2.png);
 	}
 	.suga{
-		background-image: url(suga2.png);
+		background-image: url(images/suga2.png);
 	}
 	.jin{
-		background-image: url(jin2.png);
+		background-image: url(images/jin2.png);
 	}
 	.rapmon{
-		background-image: url(rapmonster2.png);
+		background-image: url(images/rapmonster2.png);
 	}
 	.v{
-		background-image: url(v2.png);
+		background-image: url(images/v2.png);
 	}
 	.jimin{
-		background-image: url(jiminsmall.png);
+		background-image: url(images/jiminsmall.png);
 	}
 	.jhope{
-		background-image: url(jhope2.png);
+		background-image: url(images/jhope2.png);
 	}
 }
 @media screen and (min-width:451px) and (max-width:919px){
@@ -143,25 +143,25 @@ body {
 		height:198px;
 	}
 	.jk {
-	background-image: url(jungkook2.png);
+		background-image: url(images/jungkook2.png);
 	}
 	.suga{
-		background-image: url(suga2.png);
+		background-image: url(images/suga2.png);
 	}
 	.jin{
-		background-image: url(jin2.png);
+		background-image: url(images/jin2.png);
 	}
 	.rapmon{
-		background-image: url(rapmonster2.png);
+		background-image: url(images/rapmonster2.png);
 	}
 	.v{
-		background-image: url(v2.png);
+		background-image: url(images/v2.png);
 	}
 	.jimin{
-		background-image: url(jiminsmall.png);
+		background-image: url(images/jiminsmall.png);
 	}
 	.jhope{
-		background-image: url(jhope2.png);
+		background-image: url(images/jhope2.png);
 	}
 }
 @media screen and (min-width:920px) and (max-width:1584px){
@@ -195,16 +195,16 @@ body {
 		height:132px;
 	}
 	.love{
-		background-image:url(loveyourself2.jpg);
+		background-image:url(images/loveyourself2.jpg);
 	}
 	.wings{
-		background-image:url(wings2.jpg);
+		background-image:url(images/wings2.jpg);
 	}
 	.dark{
-		background-image:url(darkandwild2.jpg);
+		background-image:url(images/darkandwild2.jpg);
 	}
 	.young{
-		background-image:url(youngforever2.jpg);
+		background-image:url(images/youngforever2.jpg);
 	}
 }
 @media screen and (min-width:1585px){
@@ -218,7 +218,7 @@ body {
 	.logo{
 		height:140px;
 		width:247px;
-		background-image: url(btslogo.png);
+		background-image: url(images/btslogo.png);
 	}
 	.btsalbum {
 		height:40vh;
@@ -236,7 +236,6 @@ body {
 	.member {
 		width:920px;
 		margin-top:20px;
-		/*margin-left:calc(100vw /2 - (5 * 200px)/2 + (10 * 15px)/2);*/
 		margin-left:calc(100vw /2 - (400px + 60px));
 	}
 	.member2 {
@@ -249,4 +248,5 @@ body {
 		width: 200px;
 		height:132px;
 	}
+}
 }
