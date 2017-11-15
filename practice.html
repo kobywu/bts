@@ -4,64 +4,34 @@
 <title>BTS</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="stylesheet.css" rel="stylesheet">
 </head>
 <body>
-<div class="background-o"></div>
-	<div class="center">
-		<div class="top">
-			<div class="btslogo">
-				<div>
-					<img class="logo" src=""></img>
-				</div>
-			</div>
-			<div class="member">
-				<div class="face">
-					<img class="jin" src="" onmouseover="facts(this)">
-						<ul class="hide">
-							<li>WEEEEEEEEEEE</li>
-						</ul>
-					</img>
-				</div>
-				<div class="face">
-					<img class="rapmon" src="" onclick="facts(this)"></img>
-				</div>
-				<div class="face">
-					<img class="jhope" src="" onclick="facts(this)"></img>
-				</div>
-				<div class="face">
-					<img class="jimin" src="" onclick="facts(this)"></img>
-				</div>
-			</div>
-			<div class="member2">
-				<div class="face2">
-					<img class="jk" src="" onclick="facts(this)"></img>
-				</div>
-				<div class="face2">
-					<img class="v" src="" onclick="facts(this)"></img>
-				</div>
-				<div class="face2">
-					<img class="suga" src="" onclick="facts(this)"></img>
-				</div>
-			</div>
-		</div>
-		<div class="bottom">
-			<div class="btsalbum">
-				<div class="album">
-					<img class="love" src=""></img>
-				</div>
-				<div class="album">
-					<img class="dark" src=""></img>
-				</div>
-				<div class="album">
-					<img class="young" src=""></img>
-				</div>
-				<div class="album">
-					<img class="wings" src=""></img>
-				</div>
-			</div>
-		</div>
+<style>
+	#rapmon{
+	content: url(images/rapmonster.png);
+}
+.sun{
+	background-color:red;
+	opacity:0.5;
+}
+.hide {
+	visibility:hidden;
+}
+.show {
+	visibility:visible;
+}
+</style>
+	<div class="face" id="rapmon" onclick="play(this)">
+		<audio id="audio" src="DNA.mp3" ></audio>
 	</div>
-	<script src="script.js"></script>
 </body>
+<script>
+	function facts(e){
+	e.classList.toggle("hide");
+}
+function play(){
+       var audio = document.getElementById("audio");
+       audio.play();
+                 }
+</script>
 </html>
