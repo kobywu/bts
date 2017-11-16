@@ -35,8 +35,8 @@ body {
 .jhope{
 	content: url(images/jhope.png);
 }
-.love{
-	content:url(images/loveyourself.jpg);
+#love{
+	background-image:url(images/loveyourself.jpg);
 }
 .wings{
 	content:url(images/wings.jpg);
