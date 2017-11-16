@@ -204,7 +204,7 @@ body {
 		height:132px;
 	}
 	.love{
-		content:url(images/loveyourself2.jpg);
+		background-image:url(images/loveyourself2.jpg);
 	}
 	.wings{
 		content:url(images/wings2.jpg);
