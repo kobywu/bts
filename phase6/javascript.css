@@ -4,16 +4,6 @@ body {
 	margin:0;
 	background: #f0f4fa;
 }
-.sun{
-	background-color:red;
-	opacity:0.5;
-}
-.hide {
-	visibility:hidden;
-}
-.show {
-	visibility:visible;
-}
 .jk {
 	content: url(images/jungkook.png);
 }
