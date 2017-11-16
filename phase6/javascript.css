@@ -181,7 +181,7 @@ body {
 	.member, .member2 {
 		display:flex;
 		justify-content:center;
-		height:147px;
+		height:165px;
 	}
 	.member {
 		width:920px;
