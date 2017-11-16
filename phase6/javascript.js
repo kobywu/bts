@@ -1,19 +1,19 @@
 function facts(e){
 	e.classList.toggle("hide");
 }
-function play(){
-       var audio = document.getElementById("love");
+function young(){
+       var audio = document.getElementById("audio");
        audio.play();
                  }
-function play(){
-       var audio = document.getElementById("dark");
+function dark(){
+       var audio = document.getElementById("audio");
        audio.play();
                  }
-function play(){
-       var audio = document.getElementById("young");
+function love(){
+       var audio = document.getElementById("audio");
        audio.play();
                  }
-function play(){
-       var audio = document.getElementById("wings");
+function wings(){
+       var audio = document.getElementById("audio");
        audio.play();
                  }
