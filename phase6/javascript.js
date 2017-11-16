@@ -1,6 +1,3 @@
-function facts(e){
-	e.classList.toggle("hide");
-}
 function young(){
        var audio = document.getElementById("young");
        audio.play();
