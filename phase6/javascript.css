@@ -4,6 +4,9 @@ body {
 	margin:0;
 	background: #f0f4fa;
 }
+.album:hover{
+	opacity: 0.3;
+}
 .jk {
 	content: url(images/jungkook.png);
 }
@@ -52,13 +55,13 @@ body {
 .center{
 	height:100vh;
 	width: 100vw;
-	}
+}
 .top, .bottom{
 	width:100vw;
 	display:flex;
 	justify-content:center;
 	flex-wrap:wrap;
-	}
+}
 .btsalbum {
 	display:flex;
 	flex-wrap:wrap;
@@ -70,6 +73,16 @@ body {
 .face, .face2{
 	border: 15px solid #f0f4fa;
 }
+.hide{
+	visibility:hidden;
+}
+.show {
+	visibility:visible;
+}
+.facts {
+background-color:red;
+}
+
 /* thank you to http://bts.ibighit.com/bts.php for the code*/
 .background-o {
 	width:100%;
