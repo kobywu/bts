@@ -80,7 +80,7 @@ body {
 	visibility:visible;
 }
 .facts {
-opacity:0.3;
+background-color:pink;
 }
 
 /* thank you to http://bts.ibighit.com/bts.php for the code*/
