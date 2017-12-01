@@ -1,15 +1,33 @@
 function young(){
-       document.getElementById("young").play();
+	document.getElementById("love").pause();
+	document.getElementById("wings").pause();
+	document.getElementById("dark").pause();
+    document.getElementById("young").play();
 }
 function dark(){
-       document.getElementById("dark").play();
+	document.getElementById("love").pause();
+	document.getElementById("young").pause();
+	document.getElementById("wings").pause();
+	document.getElementById("dark").play();
 }
 function love(){
-       document.getElementById("love").play();
+	document.getElementById("dark").pause();
+	document.getElementById("young").pause();
+	document.getElementById("wings").pause();
+    document.getElementById("love").play();
 }
 function wings(){
-       document.getElementById("wings").play();
+	document.getElementById("dark").pause();
+	document.getElementById("young").pause();
+	document.getElementById("love").pause();
+    document.getElementById("wings").play();
 }
+function opacity(elem){
+	elem.classList.add("opacity");
+}	
+function regular(elem){
+	elem.classList.remove("opacity");
+}	
 function picture(elem){
 	elem.innerHTML="";
 	elem.classList.remove("facts");
@@ -19,7 +37,7 @@ function facts(elem){
 }
 function jinfacts(){
 	document.getElementById("jin").classList.remove("jin");
-	document.getElementById("jin").innerHTML = "Kim Seok Jin also known as Jin was born on december 4, 1992. He loves strawberries but not strawberry flavored things and Super Mario.";
+	document.getElementById("jin").innerHTML = "Kim Seok Jin also known as Jin was born on december 4, 1992. He loves strawberries but not strawberry flavored things, Disney Princesses and Super Mario. He is also the worst dancer in the group.";
 }
 function jinpicture(){
 	document.getElementById("jin").classList.add("jin");
@@ -33,11 +51,11 @@ function rapmonpicture(){
 } 
 function jhopefacts(){
 	document.getElementById("jhope").classList.remove("jhope");
-	document.getElementById("jhope").innerHTML = "Jung Ho-seok also known as J-Hope was born Febraury 18, 1994. He is the mood maker and the energy vitamin of the group. He also hates snakes.";
+	document.getElementById("jhope").innerHTML = "Jung Ho-seok also known as J-Hope was born Febraury 18, 1994. He is the mood maker, dance leader and the energy vitamin of the group. He also hates snakes and has a dog named Mickey.";
 }
 function jhopepicture(){
 	document.getElementById("jhope").classList.add("jhope");
-}		 
+}	 
 function jiminfacts(){
 	document.getElementById("jimin").classList.remove("jimin");
 	document.getElementById("jimin").innerHTML = "Park Jimin was born October 13, 1995 and is the shortest member of the group. His stage name was suppose to be Baby J or Young Kid and he was the last member to join BTS.";
@@ -54,7 +72,7 @@ function jkpicture(){
 }	 
 function vfacts(){
 	document.getElementById("v").classList.remove("v");
-	document.getElementById("v").innerHTML = "Kim Taehyung also known as V was born December 30, 1995. He loves bubbles, can speak Japanese and is the pickest eater of the group.";
+	document.getElementById("v").innerHTML = "Kim Taehyung also known as V was born December 30, 1995 with the zodiac sign is Capricorn. He loves bubbles, his favorite number is 10, he can speak Japanese and is the pickest eater of the group.";
 }
 function vpicture(){
 	document.getElementById("v").classList.add("v");
@@ -66,4 +84,3 @@ function sugafacts(){
 function sugapicture(){
 	document.getElementById("suga").classList.add("suga");
 }	 
-
