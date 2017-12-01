@@ -2,9 +2,9 @@ body {
 	display:flex;
 	justify-content:center;
 	margin:0;
-	background: #f0f4fa;
+	background-color: #f0f4fa;
 }
-.album:hover{
+.opacity{
 	opacity: 0.3;
 }
 .jk {
@@ -80,9 +80,8 @@ body {
 	visibility:visible;
 }
 .facts {
-background-color:pink;
+background-color:#f0f4fa;
 }
-
 /* thank you to http://bts.ibighit.com/bts.php for the code*/
 .background-o {
 	width:100%;
