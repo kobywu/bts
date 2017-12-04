@@ -82,6 +82,9 @@ body {
 .facts {
 background-color:#f0f4fa;
 }
+.btsalbum:hover {
+	cursor:pointer;
+}
 /* thank you to http://bts.ibighit.com/bts.php for the code*/
 .background-o {
 	width:100%;
