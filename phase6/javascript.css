@@ -82,7 +82,7 @@ body {
 .facts {
 background-color:#f0f4fa;
 }
-.btsalbum:hover {
+.member, .btsalbum, .member2:hover {
 	cursor:pointer;
 }
 /* thank you to http://bts.ibighit.com/bts.php for the code*/
