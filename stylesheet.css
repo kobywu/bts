@@ -2,40 +2,43 @@ body {
 	display:flex;
 	justify-content:center;
 	margin:0;
-	background: #f0f4fa;
+	background-color: #f0f4fa;
+}
+.opacity{
+	opacity: 0.3;
 }
 .jk {
-	background-image: url(images/jungkook.png);
+	content: url(images/jungkook.png);
 }
 .suga{
-	background-image: url(images/suga.png);
+	content: url(images/suga.png);
 }
 .jin{
-	background-image: url(images/jin.png);
+	content: url(images/jin.png);
 }
 .rapmon{
-	background-image: url(images/rapmonster.png);
+	content: url(images/rapmonster.png);
 }
 .v{
-	background-image: url(images/v.png);
+	content: url(images/v.png);
 }
 .jimin{
-	background-image: url(images/jimin.png);
+	content: url(images/jimin.png);
 }
 .jhope{
-	background-image: url(images/jhope.png);
+	content: url(images/jhope.png);
 }
 .love{
 	background-image:url(images/loveyourself.jpg);
 }
 .wings{
-	background-image:url(images/wings.jpg);
+	content:url(images/wings.jpg);
 }
 .dark{
-	background-image:url(images/darkandwild.jpg);
+	content:url(images/darkandwild.jpg);
 }
 .young{
-	background-image:url(images/youngforever.jpg);
+	content:url(images/youngforever.jpg);
 }
 .btslogo{
 	width:100vw;
@@ -47,18 +50,18 @@ body {
 	margin-bottom:10px;
 	height:107px;
 	width:190px;
-	background-image: url(images/btslogo2.png);
+	content: url(images/btslogo2.png);
 }
 .center{
 	height:100vh;
 	width: 100vw;
-	}
+}
 .top, .bottom{
 	width:100vw;
 	display:flex;
 	justify-content:center;
 	flex-wrap:wrap;
-	}
+}
 .btsalbum {
 	display:flex;
 	flex-wrap:wrap;
@@ -70,6 +73,18 @@ body {
 .face, .face2{
 	border: 15px solid #f0f4fa;
 }
+.hide{
+	visibility:hidden;
+}
+.show {
+	visibility:visible;
+}
+.facts {
+background-color:#f0f4fa;
+}
+.btsalbum:hover {
+	cursor:pointer;
+}
 /* thank you to http://bts.ibighit.com/bts.php for the code*/
 .background-o {
 	width:100%;
@@ -80,7 +95,7 @@ body {
 	left:0;
 	z-index: -9999;
 	text-align: center;
-    	-webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
 }
 @media screen and (max-width:450px){
 	.album {
@@ -101,25 +116,25 @@ body {
 		height:198px;
 	}
 	.jk {
-		background-image: url(images/jungkook2.png);
+		content: url(images/jungkook2.png);
 	}
 	.suga{
-		background-image: url(images/suga2.png);
+		content: url(images/suga2.png);
 	}
 	.jin{
-		background-image: url(images/jin2.png);
+		content: url(images/jin2.png);
 	}
 	.rapmon{
-		background-image: url(images/rapmonster2.png);
+		content: url(images/rapmonster2.png);
 	}
 	.v{
-		background-image: url(images/v2.png);
+		content: url(images/v2.png);
 	}
 	.jimin{
-		background-image: url(images/jiminsmall.png);
+		content: url(images/jiminsmall.png);
 	}
 	.jhope{
-		background-image: url(images/jhope2.png);
+		content: url(images/jhope2.png);
 	}
 }
 @media screen and (min-width:451px) and (max-width:919px){
@@ -142,25 +157,25 @@ body {
 		height:198px;
 	}
 	.jk {
-		background-image: url(images/jungkook2.png);
+		content: url(images/jungkook2.png);
 	}
 	.suga{
-		background-image: url(images/suga2.png);
+		content: url(images/suga2.png);
 	}
 	.jin{
-		background-image: url(images/jin2.png);
+		content: url(images/jin2.png);
 	}
 	.rapmon{
-		background-image: url(images/rapmonster2.png);
+		content: url(images/rapmonster2.png);
 	}
 	.v{
-		background-image: url(images/v2.png);
+		content: url(images/v2.png);
 	}
 	.jimin{
-		background-image: url(images/jiminsmall.png);
+		content: url(images/jiminsmall.png);
 	}
 	.jhope{
-		background-image: url(images/jhope2.png);
+		content: url(images/jhope2.png);
 	}
 }
 @media screen and (min-width:920px) and (max-width:1584px){
@@ -197,13 +212,13 @@ body {
 		background-image:url(images/loveyourself2.jpg);
 	}
 	.wings{
-		background-image:url(images/wings2.jpg);
+		content:url(images/wings2.jpg);
 	}
 	.dark{
-		background-image:url(images/darkandwild2.jpg);
+		content:url(images/darkandwild2.jpg);
 	}
 	.young{
-		background-image:url(images/youngforever2.jpg);
+		content:url(images/youngforever2.jpg);
 	}
 }
 @media screen and (min-width:1585px){
@@ -217,7 +232,7 @@ body {
 	.logo{
 		height:140px;
 		width:247px;
-		background-image: url(images/btslogo.png);
+		content: url(images/btslogo.png);
 	}
 	.btsalbum {
 		height:40vh;
@@ -247,5 +262,4 @@ body {
 		width: 200px;
 		height:132px;
 	}
-}
 }
