@@ -1,7 +1,11 @@
-function young(){
+//There are 4 albums divs in my website. Within each div, there are audio files with ids named love, young dark and wings named after the albums (divs) they are in. 
+function young(){ 
+	//The function of "young" happens when the user clicks on the image of the album Young Forever.  
+	//The 3 audio files will pause their audio sounds if the young album is clicked because I specifically stated that the element that has these ids's will pause their audio. 
 	document.getElementById("love").pause();
 	document.getElementById("wings").pause();
 	document.getElementById("dark").pause();
+	//Then the audio file with the id of young(the album that I clicked on) will start play their most popular song on that album when I specifically got the young element's id of "young" and made that audio sound play.
     document.getElementById("young").play();
 }
 function dark(){
@@ -22,23 +26,32 @@ function wings(){
 	document.getElementById("love").pause();
     document.getElementById("wings").play();
 }
+
+//The 4 albums also have an effect when you hover over it. The div of the albums have the function "opacity" when mouse is over it. This will make the element that was hovered on add the class "opacity" and will change the appearance of the album.
 function opacity(elem){
 	elem.classList.add("opacity");
 }	
+//This function is in the divs of the 4 albums on "onmouseover". When the user hovers out of the div of the album, it will take out the class opacity making the image of the album go back to the orginial picture. 
 function regular(elem){
 	elem.classList.remove("opacity");
 }	
+
+//This is the javascript for the 7 members
+//This function "picture" is in the divs of the 7 members on "onmouseout". When the user hovers out of the divs of the 7 boys, it will remove the class "facts" (the background color) and have no text shown
 function picture(elem){
 	elem.innerHTML="";
 	elem.classList.remove("facts");
 }
+//The function "facts" is in all the 7 divs of the members on "onmouseover". When the user hovers on one the divs of the 7 boys, the background image will change from the inital picture of the member to a color because it added the class "facts".
 function facts(elem){
 	elem.classList.add("facts");
 }
+//The function "jinfacts" is only in the jin picture div with the id of "jin". When the user hovers over this div, the div is going to remove the class "jin" which is the picture of jin. It is also going to add text in that div.
 function jinfacts(){
 	document.getElementById("jin").classList.remove("jin");
 	document.getElementById("jin").innerHTML = "Kim Seok Jin also known as Jin was born on december 4, 1992. He loves strawberries but not strawberry flavored things, Disney Princesses and Super Mario. He is also the worst dancer in the group.";
 }
+//The function "jinpicture" is for the jin picture div on the site. The jin div has the id of "jin". This function will find the element by the id and add the class jin to that div making it change from text to a picture of him.
 function jinpicture(){
 	document.getElementById("jin").classList.add("jin");
 }
