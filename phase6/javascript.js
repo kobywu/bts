@@ -1,7 +1,7 @@
-//There are 4 albums divs in my website. Within each div, there are audio files with ids named love, young dark and wings named after the albums (divs) they are in. 
+//There are 4 albums divs in my website. Within each div, there are audio files with ids named love, young, dark, and wings named after the albums (divs) they are in. 
 function young(){ 
 	//The function of "young" happens when the user clicks on the image of the album Young Forever.  
-	//The 3 audio files will pause their audio sounds if the young album is clicked because I specifically stated that the element that has these ids's will pause their audio. 
+	//The 3 audio files that were not clicked on, will pause their audio sounds when the young album is clicked because I specifically stated that the element that has these ids's will pause their audio. 
 	document.getElementById("love").pause();
 	document.getElementById("wings").pause();
 	document.getElementById("dark").pause();
@@ -26,7 +26,6 @@ function wings(){
 	document.getElementById("love").pause();
     document.getElementById("wings").play();
 }
-
 //The 4 albums also have an effect when you hover over it. The div of the albums have the function "opacity" when mouse is over it. This will make the element that was hovered on add the class "opacity" and will change the appearance of the album.
 function opacity(elem){
 	elem.classList.add("opacity");
