@@ -136,6 +136,9 @@ background-color:#f0f4fa;
 	.jhope{
 		content: url(images/jhope2.png);
 	}
+	.background-o{
+	display:none;
+	}
 }
 @media screen and (min-width:451px) and (max-width:919px){
 	.bottom{
@@ -176,6 +179,9 @@ background-color:#f0f4fa;
 	}
 	.jhope{
 		content: url(images/jhope2.png);
+	}
+	.background-o{
+	display:none;
 	}
 }
 @media screen and (min-width:920px) and (max-width:1584px){
