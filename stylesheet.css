@@ -256,12 +256,12 @@ background-color:#f0f4fa;
 	.member {
 		width:920px;
 		margin-top:20px;
-		margin-left:calc(100vw /2 - (400px + 60px));
+		margin-left:calc(100vw /2 - (200px*4/2 + 6*15px/2));
 	}
 	.member2 {
 		width:708px;
 		margin-top:20px;
-		margin-left:calc(100vw /2 - (200px*3/2 + 4*15px/2)); /*100vw/2 - [(200px*4/2 + 6*15px/2)]*/
+		margin-left:calc(100vw /2 - (200px*3/2 + 4*15px/2)); 
 		
 	}
 	.face, .face2{
