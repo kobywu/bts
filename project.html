@@ -8,40 +8,41 @@
 <link href="stylesheet.css" rel="stylesheet">
 </head>
 <body>
-	<div class="center">
-		<div class="top">
-			<div class="btslogo">
-				<div class="logo"></div>
+	<div class="background-o"></div>
+		<div class="center">
+			<div class="top">
+				<div class="btslogo">
+					<div class="logo"></div>
+				</div>
+				<div class="member">
+					<div class="face jin" id="jin" onmouseover="jinfacts(this); facts(this)" onmouseout="jinpicture(this); picture(this)"></div>
+					<div class="face rapmon" id="rapmon" onmouseover="rapmonfacts(this); facts(this)" onmouseout="rapmonpicture(this); picture(this)"></div>
+					<div class="face jhope" id="jhope" onmouseover="jhopefacts(this); facts(this)" onmouseout="jhopepicture(this); picture(this)"></div>
+					<div class="face jimin" id="jimin" onmouseover="jiminfacts(this); facts(this)" onmouseout="jiminpicture(this); picture(this)"></div>
+				</div>
+				<div class="member2">
+					<div class="face2 jk" id="jk" onmouseover="jkfacts(this); facts(this)" onmouseout="jkpicture(this); picture(this)"></div>
+					<div class="face2 v" id="v" onmouseover="vfacts(this); facts(this)" onmouseout="vpicture(this); picture(this)"></div>
+					<div class="face2 suga" id="suga" onmouseover="sugafacts(this); facts(this)" onmouseout="sugapicture(this); picture(this)"></div>
+				</div>
 			</div>
-			<div class="member">
-				<div class="face jin" id="jin" onmouseover="jinfacts(this); facts(this)" onmouseout="jinpicture(this); picture(this)"></div>
-				<div class="face rapmon" id="rapmon" onmouseover="rapmonfacts(this); facts(this)" onmouseout="rapmonpicture(this); picture(this)"></div>
-				<div class="face jhope" id="jhope" onmouseover="jhopefacts(this); facts(this)" onmouseout="jhopepicture(this); picture(this)"></div>
-				<div class="face jimin" id="jimin" onmouseover="jiminfacts(this); facts(this)" onmouseout="jiminpicture(this); picture(this)"></div>
-			</div>
-			<div class="member2">
-				<div class="face2 jk" id="jk" onmouseover="jkfacts(this); facts(this)" onmouseout="jkpicture(this); picture(this)"></div>
-				<div class="face2 v" id="v" onmouseover="vfacts(this); facts(this)" onmouseout="vpicture(this); picture(this)"></div>
-				<div class="face2 suga" id="suga" onmouseover="sugafacts(this); facts(this)" onmouseout="sugapicture(this); picture(this)"></div>
+			<div class="bottom">
+				<div class="btsalbum">
+					<div class="love album" onclick="love(this)" onmouseover="opacity(this)" onmouseout="regular(this)">
+						<audio id="love" type="audio/ogg" src="audio/DNA.mp3" ></audio>
+					</div>
+					<div class="dark album" onclick="dark(this)" onmouseover="opacity(this)" onmouseout="regular(this)">
+						<audio id="dark" type="audio/ogg" src="audio/War of Hormones.mp3" ></audio>
+					</div>
+					<div class="young album" onclick="young(this)" onmouseover="opacity(this)" onmouseout="regular(this)">
+						<audio id="young" type="audio/ogg" src="audio/Save Me.mp3" ></audio>
+					</div>
+					<div class="wings album" onclick="wings(this)" onmouseover="opacity(this)" onmouseout="regular(this)">
+						<audio id="wings" type="audio/ogg" src="audio/Blood Sweat and Tears.mp3" ></audio>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="bottom">
-			<div class="btsalbum">
-				<div class="love album" onclick="love(this)" onmouseover="opacity(this)" onmouseout="regular(this)">
-					<audio id="love" type="audio/ogg" src="audio/DNA.mp3" ></audio>
-				</div>
-				<div class="dark album" onclick="dark(this)" onmouseover="opacity(this)" onmouseout="regular(this)">
-					<audio id="dark" type="audio/ogg" src="audio/War of Hormones.mp3" ></audio>
-				</div>
-				<div class="young album" onclick="young(this)" onmouseover="opacity(this)" onmouseout="regular(this)">
-					<audio id="young" type="audio/ogg" src="audio/Save Me.mp3" ></audio>
-				</div>
-				<div class="wings album" onclick="wings(this)" onmouseover="opacity(this)" onmouseout="regular(this)">
-					<audio id="wings" type="audio/ogg" src="audio/Blood Sweat and Tears.mp3" ></audio>
-				</div>
-			</div>
-		</div>
-	</div>
 	<script src="script.js"></script>
 </body>
 </html>
