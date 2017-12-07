@@ -26,7 +26,7 @@ function wings(){
 	document.getElementById("love").pause();
     document.getElementById("wings").play();
 }
-//The 4 albums also have an effect when you hover over it. The div of the albums have the function "opacity" when mouse is over it. This will make the element in the HTML that was hovered on add the CSS class "opacity" and will change the appearance of the album.
+//The 4 albums also have an effect when you hover over it. The div of the albums have the function "opacity" when mouse is over it in the HTML. This will make the element that was hovered on add the CSS class "opacity" and will change the appearance of the album.
 function opacity(elem){
 	elem.classList.add("opacity");
 }	
@@ -36,7 +36,7 @@ function regular(elem){
 }	
 
 //This is the javascript for the 7 members
-//This function "picture" is in the HTML divs of the 7 members on "onmouseout". When the user hovers out of the divs of the 7 boys, it will remove the CSS class "facts" (the background color) from the HTML code and have no text shown
+//This function "picture" is in the HTML divs of the 7 members on "onmouseout." When the user hovers out of the divs of the 7 boys, it will remove the CSS class "facts" (the background color) from the HTML code and have no text shown. 
 function picture(elem){
 	elem.innerHTML="";
 	elem.classList.remove("facts");
