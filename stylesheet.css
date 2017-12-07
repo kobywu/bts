@@ -184,7 +184,7 @@ background-color:#f0f4fa;
 	display:none;
 	}
 }
-@media screen and (min-width:920px) and (max-width:1584px){
+@media screen and (min-width:920px) and (max-width:1400px){
 	.top{
 		height:70vh;
 	}
@@ -227,7 +227,7 @@ background-color:#f0f4fa;
 		content:url(images/youngforever2.jpg);
 	}
 }
-@media screen and (min-width:1585px){
+@media screen and (min-width:1401px){
 	.top{
 		display:block;
 		height:60vh;	
