@@ -202,7 +202,6 @@ background-color:#f0f4fa;
 	.member, .member2 {
 		display:flex;
 		height:165px;
-		justify-content:center;
 	}
 	.member {
 		width:920px;
@@ -251,7 +250,6 @@ background-color:#f0f4fa;
 	.member, .member2 {
 		display:flex;
 		height:162px;
-		justify-content:center;
 	}
 	.member {
 		width:920px;
