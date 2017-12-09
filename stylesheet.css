@@ -73,12 +73,6 @@ body {
 .face, .face2{
 	border: 15px solid #f0f4fa;
 }
-.hide{
-	visibility:hidden;
-}
-.show {
-	visibility:visible;
-}
 .facts {
 background-color:#f0f4fa;
 }
