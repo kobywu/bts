@@ -36,14 +36,9 @@ function regular(elem){
 }	
 
 //This is the javascript for the 7 members
-//This function "picture" is in the HTML divs of the 7 members on "onmouseout." When the user hovers out of the divs of the 7 boys, it will remove the CSS class "facts" (the background color) from the HTML code and have no text shown. 
+//This function "picture" is in the HTML divs of the 7 members on "onmouseout." When the user hovers out of the divs of the 7 boys, it will remove the HTML text. 
 function picture(elem){
 	elem.innerHTML="";
-	elem.classList.remove("facts");
-}
-//The function "facts" is in all the 7 divs of the members on "onmouseover". When the user hovers on one the divs of the 7 boys, the background image will change from the inital picture of the member to a color because it added the class "facts".
-function facts(elem){
-	elem.classList.add("facts");
 }
 //The function "jinfacts" is only in the jin picture div with the id of "jin". When the user hovers over this div, the div is going to remove the CSS class "jin" which is the picture of jin in the HTML. It is also going to add text in that div.
 function jinfacts(){
