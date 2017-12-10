@@ -91,12 +91,15 @@ background-color:#f0f4fa;
 	text-align: center;
     -webkit-font-smoothing: antialiased;
 }
-@media screen and (max-width:450px){
+@media screen and (max-width:660px){
 	.album {
 		height:315px;
 		width:311px;
 	}
-	.member, .member2 {
+	.bottom {
+		height:1300px;
+	}
+	.member, .member2, .btsalbum {
 		display:block;
 	}
 	.member2{
@@ -134,10 +137,7 @@ background-color:#f0f4fa;
 	display:none;
 	}
 }
-@media screen and (min-width:451px) and (max-width:919px){
-	.bottom{
-		height:173px;
-	}
+@media screen and (min-width:661px) and (max-width:919px){
 	.album {
 		height:315px;
 		width:311px;
@@ -152,6 +152,9 @@ background-color:#f0f4fa;
 	.face, .face2{
 		width: 300px;
 		height:198px;
+	}
+	.bottom{
+		height:650px;
 	}
 	.jk {
 		content: url(images/jungkook2.png);
